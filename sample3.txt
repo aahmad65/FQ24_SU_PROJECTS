@@ -1,0 +1,36 @@
+{
+    "streamParameters": [
+        {
+            "key": "foo",
+            "parameters": {
+                "maxCapacity": 100,
+                "maxOperations": 500,
+            }
+        },
+        {
+            "key": "abc",
+            "parameters": {
+                "maxCapacity": 2,
+                "maxOperations": 4,
+                "filename": "aaaaaa.dat"
+            }
+        },
+        {
+            "key": "baz",
+            "parameters": {
+                "maxCapacity": 1,
+                "maxOperations": 10,
+                "resetPeriodSeconds": 1
+            }
+        },
+         {
+             "key": "xyz",
+             "parameters": {
+                 "maxCapacity": 10,
+                 "maxOperations": 10,
+                 "filename": "blink.txt",
+                "resetPeriodSeconds": 30
+             }
+         }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "streamParameters": [
+        {
+            "key": 1,
+            "parameters": {
+                "maxCapacity": 100,
+                "maxOperations": 500,
+                "filename": "stream1.txt"
+            }
+        },
+        {
+            "key": 2,
+            "parameters": {
+                "maxCapacity": 200,
+                "maxOperations": 1000,
+                "filename": "stream2.txt"
+            }
+        },
+        {
+            "key": 3,
+            "parameters": {
+                "maxCapacity": 300,
+                "maxOperations": 1500
+            }
+        }
+    ]
+}
